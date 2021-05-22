@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "deb1dfd1-9780-42da-bcd3-1501f7b84e91",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 75,
+  "height": 69,
+  "platformSettings": {},
+  "subMetas": {
+    "livroAzul": {
+      "ver": "1.0.4",
+      "uuid": "7d586756-489c-4ae1-88ec-eac1373d0caa",
+      "rawTextureUuid": "deb1dfd1-9780-42da-bcd3-1501f7b84e91",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -1.5,
+      "trimX": 2,
+      "trimY": 4,
+      "width": 73,
+      "height": 64,
+      "rawWidth": 75,
+      "rawHeight": 69,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

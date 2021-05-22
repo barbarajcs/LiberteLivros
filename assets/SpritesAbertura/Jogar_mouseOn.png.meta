@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "747c0773-9696-4444-9121-72b0fd7f4cab",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 432,
+  "height": 217,
+  "platformSettings": {},
+  "subMetas": {
+    "Jogar_mouseOn": {
+      "ver": "1.0.4",
+      "uuid": "81fc7106-ee7e-451d-9819-448ee8f471e6",
+      "rawTextureUuid": "747c0773-9696-4444-9121-72b0fd7f4cab",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -7.5,
+      "offsetY": -4.5,
+      "trimX": 41,
+      "trimY": 42,
+      "width": 335,
+      "height": 142,
+      "rawWidth": 432,
+      "rawHeight": 217,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

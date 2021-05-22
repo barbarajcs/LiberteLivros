@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "97aa584b-66b4-47e9-8a44-e2d371b07b9f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 76,
+  "height": 53,
+  "platformSettings": {},
+  "subMetas": {
+    "Goomba_04": {
+      "ver": "1.0.4",
+      "uuid": "bf3bf934-c2bf-42a0-8e2a-662790837aa1",
+      "rawTextureUuid": "97aa584b-66b4-47e9-8a44-e2d371b07b9f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": -3.5,
+      "trimX": 12,
+      "trimY": 12,
+      "width": 62,
+      "height": 36,
+      "rawWidth": 76,
+      "rawHeight": 53,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

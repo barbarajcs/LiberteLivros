@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "eab8255f-e4dd-4386-9f59-4b0236ffb914",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 54,
+  "height": 95,
+  "platformSettings": {},
+  "subMetas": {
+    "May-Bonbon_19": {
+      "ver": "1.0.4",
+      "uuid": "0c402c24-869a-4dda-8e6c-dda4f75e00a4",
+      "rawTextureUuid": "eab8255f-e4dd-4386-9f59-4b0236ffb914",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1.5,
+      "trimX": 0,
+      "trimY": 3,
+      "width": 54,
+      "height": 92,
+      "rawWidth": 54,
+      "rawHeight": 95,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

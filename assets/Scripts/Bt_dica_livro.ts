@@ -12,7 +12,10 @@ export default class BtDicaLivro extends cc.Component {
 
          onLoad () {
                   this.node.on('touchstart', function(e){
-                           cc.director.loadScene('Dica1');
+                  var dica = ['Dica1','Dica2','Dica3'];
+                  var random = Math.floor(Math.random()*dica.length);  
+                           
+                           cc.director.loadScene(dica[random]);
                   });
          }
 

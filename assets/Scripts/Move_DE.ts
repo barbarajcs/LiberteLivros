@@ -11,10 +11,7 @@ export default class MoveDE extends cc.Component {
     @property(cc.Sprite)
     left: cc.Sprite = null; 
     
-    @property(cc.Sprite)
-    up: cc.Sprite = null; 
-    
-   
+     
     
 
     // LIFE-CYCLE CALLBACKS:
@@ -40,10 +37,7 @@ export default class MoveDE extends cc.Component {
             this.getComponent(cc.Animation).getAnimationState("Iddle_right_anim").pause();
         }, this);
         
-        this.up.node.on('touchstart', function(event){
-            this.movimento = 2; //walking right
-        }, this);
-        
+                
         
         this.right.node.on('touchend', function(event){
             this.movimento = 0; //stop right
@@ -66,9 +60,6 @@ export default class MoveDE extends cc.Component {
             this.getComponent(cc.RigidBody).linearDamping = 5;
         }, this);
         
-        this.up.node.on('touchend', function(event){
-            this.movimento = 0; //walking right
-        }, this);
         
     }
 
@@ -94,15 +85,6 @@ export default class MoveDE extends cc.Component {
             this.getComponent(cc.RigidBody).linearVelocity = cc.v2( 300,this.node.position.y);
             //this.node.setPosition(this.node.position.x += 300*dt, this.node.position.y)
         }
-        if (this.movimento == 2)
-        {
-            this.getComponent(cc.Animation).getAnimationState("walk_left_anim").pause();
-            this.getComponent(cc.Animation).getAnimationState("Iddle_left_anim").pause();
-            this.getComponent(cc.Animation).getAnimationState("walk_right_anim").play();
-            this.getComponent(cc.Animation).getAnimationState("Iddle_right_anim").pause();
-            this.getComponent(cc.RigidBody).linearVelocity = cc.v2( this.node.position.x,300);
-            //this.node.setPosition(this.node.position.x += 300*dt, this.node.position.y)
-        }
-      
+             
     }
 }
